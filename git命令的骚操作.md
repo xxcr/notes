@@ -338,7 +338,7 @@ rebase：
 
 ### 作用
 
-1. `git reflog` 可以查看所有分支的所有操作记录（包括（包括 `commit` 和 `reset` 的操作），包括已经被删除的commit记录。
+1. `git reflog` 可以查看所有分支的 __所有操作记录__ （包括（包括 `checkout` 和 `reset` 的操作），包括已经被删除的 `commit` 记录。
 
 2. 用来恢复本地错误操作。
 
