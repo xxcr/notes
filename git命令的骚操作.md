@@ -345,7 +345,17 @@ rebase：
 
 ### 基本用法
 
+1. `git reflog` 显示所有操作。
+
+    ![reflog](./images/reflog.png)
+
+    回退到某一步：`git reset --hard HEAD@{1}` 或者用前面的id
+
+2. `git reflog 分支名` 显示某个分支的引用日志
  
 
+### 与 git log 的区别
 
+1. `git log` 命令可以显示所有提交过的版本信息。`git reflog` 查看所有分支的 __所有操作记录__ 。
 
+2. `git log` 不能察看已经删除了的 `commit` 记录。
