@@ -325,13 +325,13 @@ rebase：
     - -m 配置项告诉 git 应该采用哪个分支分变动，parent-number 代表原始提交的父分支编号。
 
 
-    ```shell
+        ```shell
 
-    git cherry-pick -m 1 <A>
+        git cherry-pick -m 1 <A>
 
-    ```
+        ```
 
-    一般1号父分支是接受变动分支，2号父分支是作为变动来源的分支。
+        一般1号父分支是接受变动分支，2号父分支是作为变动来源的分支。
 
 
 ## git reflog
