@@ -19,5 +19,9 @@
 
 > 基本上是copy 的文章，大佬的文章写的实在太好了。
 
-1. [「硬核JS」你真的了解垃圾回收机制吗](https://juejin.cn/post/6981588276356317214)
+1. [「硬核JS」你真的了解垃圾回收机制吗](https://github.com/xxcr/notes/tree/main/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6)
+
+
+
+### 更多技术文章
 
