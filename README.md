@@ -19,7 +19,9 @@
 
 > 基本上是copy 的文章，大佬的文章写的实在太好了。
 
-1. [「硬核JS」你真的了解垃圾回收机制吗](https://github.com/xxcr/notes/tree/main/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6)
+1. [垃圾回收](https://github.com/xxcr/notes/tree/main/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6)
+2. [内存泄漏]()
+3. [原码、反码和补码，再到位运算]()
 
 
 
