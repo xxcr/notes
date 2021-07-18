@@ -30,4 +30,5 @@
 ### 更多必读清单
 
 1. [为什么 HTTP/3 基于UDP，可靠么？](https://juejin.cn/post/6984315270038814727)
-2. [做一些动图，学习一下EventLoop](https://juejin.cn/post/6969028296893792286)
+2. [「硬核JS」你的程序中可能存在内存泄漏](https://juejin.cn/post/6984188410659340324)
+3. [做一些动图，学习一下EventLoop](https://juejin.cn/post/6969028296893792286)
