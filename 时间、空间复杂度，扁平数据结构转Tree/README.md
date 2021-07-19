@@ -163,7 +163,7 @@ let arr = [
 function arrayToTree(items) {
   let res = []
   let getChildren = (res, pid) => {
-      for (const i of data) {
+      for (const i of items) {
           if (i.pid === pid) {
               const newItem = { ...i, children: [] }
               res.push(newItem)
@@ -186,7 +186,25 @@ function arrayToTree(items) {
 
 ```js
 function arrayToTree(items) {
-  
+    let res = [] // 存放结果集
+    let map = {}
+
+    // 先转成map存储
+    for (const i of items) {
+        map[i.id] = { ...i, children: [] }
+    }
+
+    for (const i of items) {
+        const newItem = map[i.id]
+        if (i.pid === 0) {
+            res.push(newItem)
+        } else {
+            if (Object.prototype.hasOwnProperty.call(map, i.pid)) {
+                map[i.pid].children.push(newItem)
+            }
+        }
+    }
+    return res
 }
 ```
 
