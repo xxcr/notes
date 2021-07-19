@@ -161,7 +161,18 @@ let arr = [
 
 ```js
 function arrayToTree(items) {
-  
+  let res = []
+  let getChildren = (res, pid) => {
+      for (const i of data) {
+          if (i.pid === pid) {
+              const newItem = { ...i, children: [] }
+              res.push(newItem)
+              getChildren(newItem.children, newItem.id)
+          }
+      }
+  }
+  getChildren(res, 0)
+  return res
 }
 ```
 
