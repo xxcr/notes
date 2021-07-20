@@ -218,9 +218,33 @@ function arrayToTree(items) {
 
 ```js
 function arrayToTree(items) {
-  
+    let res = [] // 存放结果集
+    let map = {}
+    // 判断对象是否有某个属性
+    let getHasOwnProperty = (obj, property) => Object.prototype.hasOwnProperty.call(obj, property)
+
+    // 边做map存储，边找对应关系
+    for (const i of items) {
+        map[i.id] = {
+            ...i,
+            children: getHasOwnProperty(map, i.id) ? map[i.id].children : []
+        }
+        const newItem = map[i.id]
+        if (i.pid === 0) {
+            res.push(newItem)
+        } else {
+            if (!getHasOwnProperty(map, i.pid)) {
+                map[i.pid] = {
+                    children: []
+                }
+            }
+            map[i.pid].children.push(newItem)
+        }
+    }
+    return res
 }
 
 ```
 
 从上面的代码我们分析，一次循环就搞定了，该实现的时间复杂度为`O(n)`，需要一个Map把数据存储起来，空间复杂度`O(n)`
+
