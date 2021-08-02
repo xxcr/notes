@@ -24,6 +24,7 @@
 3. [原码、反码和补码，再到位运算](https://github.com/xxcr/notes/tree/main/%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E5%92%8C%E8%A1%A5%E7%A0%81%EF%BC%8C%E5%86%8D%E5%88%B0%E4%BD%8D%E8%BF%90%E7%AE%97)
 4. [requestAnimationFrame用法](https://github.com/xxcr/notes/tree/main/requestAnimationFrame%E7%94%A8%E6%B3%95)
 5. [时间、空间复杂度，扁平数据结构转Tree](https://github.com/xxcr/notes/tree/main/%E6%97%B6%E9%97%B4%E3%80%81%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%EF%BC%8C%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACTree)
+6. JS 中 this 指向问题
 
 
 
