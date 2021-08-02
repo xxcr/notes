@@ -26,6 +26,7 @@
 5. [时间、空间复杂度，扁平数据结构转Tree](https://github.com/xxcr/notes/tree/main/%E6%97%B6%E9%97%B4%E3%80%81%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%EF%BC%8C%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACTree)
 6. JS 中 this 指向问题
 7. 你真的了解ES6的Set，WeakSet，Map和WeakMap吗？
+8. 细说localStorage, sessionStorage, Cookie, Session
 
 
 
