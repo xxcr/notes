@@ -28,6 +28,7 @@
 7. 你真的了解ES6的Set，WeakSet，Map和WeakMap吗？
 8. 细说localStorage, sessionStorage, Cookie, Session
 9. 作用域的延伸
+10. var和let/const的区别
 
 
 
