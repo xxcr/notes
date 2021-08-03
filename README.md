@@ -27,6 +27,7 @@
 6. JS 中 this 指向问题
 7. 你真的了解ES6的Set，WeakSet，Map和WeakMap吗？
 8. 细说localStorage, sessionStorage, Cookie, Session
+9. 作用域的延伸
 
 
 
