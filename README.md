@@ -29,6 +29,7 @@
 8. 细说localStorage, sessionStorage, Cookie, Session
 9. 作用域的延伸
 10. var和let/const的区别
+11. Proxy与Object.defineProperty的用法与区别
 
 
 
