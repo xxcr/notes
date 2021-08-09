@@ -83,10 +83,13 @@
 #### JavaScript
 
 1. [「硬核JS」你的程序中可能存在内存泄漏](https://juejin.cn/post/6984188410659340324)
-
 2. [做一些动图，学习一下EventLoop](https://juejin.cn/post/6969028296893792286)
-
-   
+3. 闭包
+   - [破解前端面试（80% 应聘者不及格系列）：从闭包说起](https://juejin.cn/post/6844903474212143117#heading-0)
+   - [闭包详解一](https://juejin.cn/post/6844903612879994887#heading-1)
+   - [面试官：说说作用域和闭包吧](https://juejin.cn/post/6844904165672484871)
+   - [javascript之闭包七（闭包的应用场景）](https://juejin.cn/post/6844903910902087688#heading-5)
+   - [面试 | JS 经典面试题初篇(this, 闭包, 原型...)含答案](https://juejin.cn/post/6943035836691087397#heading-9)
 
 #### css
 
