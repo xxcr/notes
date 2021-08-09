@@ -12,6 +12,7 @@
 > 更多原创文章移步：[js-code-notes](https://github.com/xxcr/js-code-notes)
 
 1. [git命令的骚操作](https://github.com/xxcr/notes/blob/main/git%E5%91%BD%E4%BB%A4%E7%9A%84%E9%AA%9A%E6%93%8D%E4%BD%9C/git%E5%91%BD%E4%BB%A4%E7%9A%84%E9%AA%9A%E6%93%8D%E4%BD%9C.md)
+2. HTML script标签async和defer的区别
 
 
 
@@ -82,9 +83,10 @@
 #### JavaScript
 
 1. [「硬核JS」你的程序中可能存在内存泄漏](https://juejin.cn/post/6984188410659340324)
+
 2. [做一些动图，学习一下EventLoop](https://juejin.cn/post/6969028296893792286)
 
-
+   
 
 #### css
 
