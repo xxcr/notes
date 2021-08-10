@@ -27,6 +27,7 @@
 1. [垃圾回收](https://github.com/xxcr/notes/tree/main/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6)
 2. 一张图看浏览器的五类进程
 3. 细说localStorage, sessionStorage, Cookie, Session
+4. 浏览器内核
 
 
 
