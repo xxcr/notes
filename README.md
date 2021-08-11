@@ -119,7 +119,9 @@
 #### 计算机网络
 
 1. [为什么 HTTP/3 基于UDP，可靠么？](https://juejin.cn/post/6984315270038814727)
-2. [（建议精读）HTTP灵魂之问，巩固你的 HTTP 知识体系](https://juejin.cn/post/6844904100035821575)
+2. [HTTP/3 原理实战](https://zhuanlan.zhihu.com/p/143464334)
+3. [（建议精读）HTTP灵魂之问，巩固你的 HTTP 知识体系](https://juejin.cn/post/6844904100035821575)
+4. [「查缺补漏」巩固你的HTTP知识体系](https://juejin.cn/post/6857287743966281736)
 
 
 
