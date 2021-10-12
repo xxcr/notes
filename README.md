@@ -35,7 +35,7 @@
 
 1. [原码、反码和补码，再到位运算](https://github.com/xxcr/notes/tree/main/%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E5%92%8C%E8%A1%A5%E7%A0%81%EF%BC%8C%E5%86%8D%E5%88%B0%E4%BD%8D%E8%BF%90%E7%AE%97)
 2. [内存泄漏](https://github.com/xxcr/notes/tree/main/%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F)
-3. [你真的了解ES6的Set，WeakSet，Map和WeakMap吗？]
+3. [你真的了解ES6的Set，WeakSet，Map和WeakMap吗？](https://github.com/xxcr/notes/tree/main/%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BA%86%E8%A7%A3ES6%E7%9A%84Set%EF%BC%8CWeakSet%EF%BC%8CMap%E5%92%8CWeakMap%E5%90%97%EF%BC%9F)
 4. Proxy与Object.defineProperty的用法与区别
 5. [JS 中 this 指向问题](https://github.com/xxcr/notes/tree/main/JS%20%E4%B8%AD%20this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98)
 6. 作用域的延伸
