@@ -14,6 +14,7 @@
 1. [git命令的骚操作](https://github.com/xxcr/notes/blob/main/git%E5%91%BD%E4%BB%A4%E7%9A%84%E9%AA%9A%E6%93%8D%E4%BD%9C/git%E5%91%BD%E4%BB%A4%E7%9A%84%E9%AA%9A%E6%93%8D%E4%BD%9C.md)
 2. HTML script标签async和defer的区别
 3. [vue插件](https://github.com/xxcr/notes/tree/main/vue%E6%8F%92%E4%BB%B6)
+4. [async和await](https://github.com/xxcr/notes/tree/main/async%E5%92%8Cawait)
 
 
 
