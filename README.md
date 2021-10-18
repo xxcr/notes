@@ -41,7 +41,7 @@
 4. Proxy与Object.defineProperty的用法与区别
 5. [JS 中 this 指向问题](https://github.com/xxcr/notes/tree/main/JS%20%E4%B8%AD%20this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98)
 6. [作用域的延伸](https://github.com/xxcr/notes/tree/main/%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E5%BB%B6%E4%BC%B8)
-7. var和let/const的区别
+7. [var和let/const的区别](https://github.com/xxcr/notes/tree/main/var%E5%92%8Clet%E5%92%8Cconst%E7%9A%84%E5%8C%BA%E5%88%AB)
 8. Undefined与Null的区别
 
 
