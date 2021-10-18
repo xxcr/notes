@@ -144,6 +144,7 @@
 3. [(建议收藏)TCP协议灵魂之问，巩固你的网路底层基础](https://juejin.cn/post/6844904070889603085)
 4. [为什么 HTTP/3 基于UDP，可靠么？](https://juejin.cn/post/6984315270038814727)
 5. [HTTP/3 原理实战](https://zhuanlan.zhihu.com/p/143464334)
+6. [《大前端进阶 安全》系列 HTTPS详解（通俗易懂）](https://juejin.cn/post/6844904127420432391)
 
 
 
