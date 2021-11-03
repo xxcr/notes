@@ -77,6 +77,7 @@
 #### other
 
 1. [前端缓存](https://github.com/xxcr/notes/tree/main/%E5%89%8D%E7%AB%AF%E7%BC%93%E5%AD%98)
+2. 前端路由
 
 
 
