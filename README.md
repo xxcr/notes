@@ -96,6 +96,7 @@
     - [前端鉴权的兄弟们：cookie、session、token、jwt、单点登录](https://juejin.cn/post/6898630134530752520)
 5.  [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.cn/post/6844903553795014663)
 6.  [吃透浏览器安全（同源限制/XSS/CSRF/中间人攻击）](https://juejin.cn/post/6991888178890145828)
+7.  [九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
 
 
 
@@ -116,7 +117,7 @@
 8. 前端模块化
 
    - [前端模块化规范详细总结](https://juejin.cn/post/6996595779037036580)
-- [前端模块化详解(完整版)](https://juejin.cn/post/6844903744518389768#heading-25)
+   - [前端模块化详解(完整版)](https://juejin.cn/post/6844903744518389768#heading-25)
 
 
 
