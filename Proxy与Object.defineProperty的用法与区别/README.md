@@ -409,5 +409,60 @@ proxy.b.d.e
 2. 对象上新增属性，Proxy可以监听到，Object.defineProperty不能。
 3. 数组新增修改，Proxy可以监听到，Object.defineProperty不能。
 4. 若对象内部属性要全部递归代理，Proxy可以只在调用的时候递归，而Object.definePropery需要一次完成所有递归，性能比Proxy差。
-5. Proxy不兼容IE，Object.defineProperty不兼容IE8及以下
+5. Proxy不兼容IE，Object.defineProperty不兼容IE8及以下，而且无法用polyfill实现。
 6. Proxy使用上比Object.defineProperty方便多。
+
+
+
+## 题外话
+
+### Object.defineProperty监听数组的变化
+
+``Object.defineProperty`无法监听数组变化。 但是vue中是可以监听数组的变化的，那他是怎么实现的呢？
+
+使用了以下八种方法：
+
+```js
+push()
+pop()
+shift()
+unshift()
+splice()
+sort()
+reverse()
+```
+
+实现示例参考：
+
+```js
+const aryMethods = ['push', 'pop', 'shift', 'unshift', 'splice', 'sort', 'reverse'];
+const arrayAugmentations = [];
+
+aryMethods.forEach((method)=> {
+
+    // 这里是原生Array的原型方法
+    let original = Array.prototype[method];
+
+   // 将push, pop等封装好的方法定义在对象arrayAugmentations的属性上
+   // 注意：是属性而非原型属性
+    arrayAugmentations[method] = function () {
+        console.log('我被改变啦!');
+
+        // 调用对应的原生方法并返回结果
+        return original.apply(this, arguments);
+    };
+
+});
+
+let list = ['a', 'b', 'c'];
+// 将我们要监听的数组的原型指针指向上面定义的空数组对象
+// 别忘了这个空数组的属性上定义了我们封装好的push等方法
+list.__proto__ = arrayAugmentations;
+list.push('d');  // 我被改变啦！ 4
+
+// 这里的list2没有被重新定义原型指针，所以就正常输出
+let list2 = ['a', 'b', 'c'];
+list2.push('d');  // 4
+```
+
+其实就是重新写了数组的那几个方法，调用那几个方法的时候，先监听到改变了，然后再执行数组原型上的那几个方法。
